@@ -3,8 +3,6 @@ import os
 import sys
 
 def main():
-    
-        # Check access token
     access_token = os.environ.get("ACCESS_TOKEN")
     if not access_token:
         print("Please provide your Access Token to be able to execute this code.")
