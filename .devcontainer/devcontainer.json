@@ -1,0 +1,19 @@
+{
+  "name": "Python 3",
+  "image": "alcbotta/py-webex-chatbot:0.0.1",
+  "appPort": [
+    "9999:9999"
+  ],
+  "runArgs": [
+    "-e",
+    "ACCESS_TOKEN=YOUR-ACCESS-TOKEN"
+  ],
+  "extensions": [
+    "ms-python.python"
+  ],
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+  }
+}
